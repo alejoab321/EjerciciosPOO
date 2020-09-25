@@ -21,31 +21,44 @@ namespace TeatroFinal.Models
 
         public void MostrarAbonados()
         {
-            string nombresAbonados = "----- Lista de Abonados ----- \n";            
+            ClasificarEspectadores(1);
+        }
+
+        public void MostrarOcasional()
+        {
+            ClasificarEspectadores(0);
+        }
+
+        private void ClasificarEspectadores(int accion) 
+        {
+            string nombresAbonados = "----- Lista de Abonados ----- \n";
+            string nombresOcacionales = "----- Lista de Ocacionales ----- \n";
             foreach (var espectador in Espectadores)
             {
                 if (typeof(Abonado).IsInstanceOfType(espectador))
                 {
                     Abonado abonado = (Abonado)espectador;
-                    nombresAbonados += "nombre :" + $"{abonado.Nombre}" + "\n";                    
+                    nombresAbonados += "nombre :" + $"{abonado.Nombre}" + "\n";
                 }
-            }
-            Console.WriteLine(nombresAbonados);
-        }
-
-        public void MostrarOcasional()
-        {
-            string nombresAbonados = "----- Lista de Ocacionales ----- \n";
-            foreach (var espectador in Espectadores)
-            {
-                if (typeof(Ocacional).IsInstanceOfType(espectador))
+                else if (typeof(Ocacional).IsInstanceOfType(espectador))
                 {
                     Ocacional ocacional = (Ocacional)espectador;
-                    nombresAbonados += "nombre :" + $"{ocacional.Nombre}" + "\n";
+                    nombresOcacionales += "nombre :" + $"{ocacional.Nombre}" + "\n";
 
                 }
+
             }
-            Console.WriteLine(nombresAbonados);
+            switch (accion)
+            {
+                case 0:
+                    Console.WriteLine(nombresOcacionales);
+                    break;
+                case 1:
+                    Console.WriteLine(nombresAbonados);
+                    break;
+                default:
+                    break;
+            }
         }
 
 
