@@ -1,0 +1,13 @@
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.exe
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.deps.json
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.runtimeconfig.json
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.runtimeconfig.dev.json
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.dll
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\bin\Debug\netcoreapp3.1\TeatroFinal.pdb
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.csprojAssemblyReference.cache
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.AssemblyInfoInputs.cache
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.AssemblyInfo.cs
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.csproj.CoreCompileInputs.cache
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.dll
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.pdb
+C:\Users\AlejandroAlzateBetan\source\repos\TeatroFinal\TeatroFinal\obj\Debug\netcoreapp3.1\TeatroFinal.genruntimeconfig.cache
