@@ -8,7 +8,7 @@ namespace TeatroFinal.Models
     public class Obra
     {
         public string Titulo { get; set; }
-        public List<Espectador> Espectadores { get; set; }
+        public List<Espectador> Espectadores { get; set ; }
         public int Hora { get; set; }
         public long Recaudo { get; set; }
 
@@ -50,10 +50,10 @@ namespace TeatroFinal.Models
             }
             switch (accion)
             {
-                case 0:
+                case Constantes.Ocasional:
                     Console.WriteLine(nombresOcacionales);
                     break;
-                case 1:
+                case Constantes.Abonado:
                     Console.WriteLine(nombresAbonados);
                     break;
                 default:

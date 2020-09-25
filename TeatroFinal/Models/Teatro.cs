@@ -13,7 +13,7 @@ namespace TeatroFinal.Models
         public Teatro(string nombre)
         {
             Nombre = nombre;
-            Capacidad = 0;
+            Capacidad = Constantes.CapacidadInicial;
         }
 
         public bool VenderBoleta(Obra obra,Espectador espectador)
