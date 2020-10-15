@@ -7,10 +7,22 @@ namespace TeatroFinal.Models
 {
     public class Obra
     {
+        private long recaudo;
         public string Titulo { get; set; }
         public List<Espectador> Espectadores { get; set ; }
         public int Hora { get; set; }
-        public long Recaudo { get; set; }
+        public long Recaudo 
+        {
+            get
+            {
+                return recaudo;
+            }
+            set
+            {
+                recaudo = value;
+            }
+        }
+           
 
         public Obra(string titulo, int hora)
         {
